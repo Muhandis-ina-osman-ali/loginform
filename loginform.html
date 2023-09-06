@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+
+    <h5>Fill this form to register</h5>
+    
+    <form action="/action_page.php" id="form1">
+        <label for="fname" placeholder= > First name:</label> 
+        <input type="text" id="fname" placeholder="enter your firstname" name="fname"> <br> <br>
+        <label for="lname" placeholder= "LAST">Last name:</label>
+        <input type="text" id="lname" placeholder="enter your lastname" name="fname"> <br> <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="enter your email" name="email"> <br> <br>
+        <label for="date"> Date of birth</label>
+        <input type="date" id="date" name="date"> <br> <br> 
+        <label for="setusername">Set User name</label>
+        <input type="text" id="setusername" placeholder="setusername" name="setusername"> <br> <br>
+        <label for="setpassword"> Set password</label>
+        <input type="password" id="password" placeholder="setpassword" name="password"> <br> <br>
+    </form>
+<p>Sex:</p>
+<form>
+    <input type="radio" id="Male" name="sex">
+    <label for="male"> Male</label> <br>
+    <input type="radio" id="Female" name="sex">
+    <label for="Female"> Female</label>
+</form> <br> 
+    <form action="">
+        <label for="course" >choose your course </label> <br>
+        <select name="course" id="course">
+            <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JAVA SCRIPT</option>
+        </select> <br>
+        <input type="submit">
+        
+
+    </form>
+</body>
+</html>
